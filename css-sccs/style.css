@@ -1,0 +1,419 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
+.conteiner, .content {
+  margin: 0 auto;
+  width: 1140px;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.conteiner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 76px;
+}
+
+.content {
+  width: 1140px;
+}
+
+.header {
+  background-color: #222222;
+}
+
+.header .header__menu {
+  display: none;
+  /*Временно*/
+}
+
+.header .header__button {
+  border: none;
+  background-color: transparent;
+}
+
+.header .header__ico {
+  margin: 0 0 0 33px;
+}
+
+.header .header__icon-magazine {
+  margin-right: 41px;
+}
+
+.gigachad {
+  width: 19 00px;
+  margin: 0 auto;
+  background-color: #F1E4E6;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-transform: uppercase;
+  margin-bottom: 64px;
+}
+
+.gigachad .gigachad__heading {
+  border-left: 12px solid #F16D7F;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-left: 16px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin-left: 76px;
+  font-weight: 900;
+  font-size: 48px;
+}
+
+.gigachad .gigachad__small-heading, .gigachad .gigachad__pink-heading {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.gigachad .gigachad__pink-heading {
+  color: #F16D7F;
+}
+
+.offers .offers__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 97px;
+}
+
+.offers .offers__list-item {
+  position: relative;
+}
+
+.offers .offers__text {
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 16px;
+  position: absolute;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.offers .offers__text-1 {
+  top: 105px;
+  left: 103px;
+}
+
+.offers .offers__text-2 {
+  top: 105px;
+  left: 125px;
+}
+
+.offers .offers__text-3 {
+  top: 105px;
+  left: 123px;
+}
+
+.offers .offers__text-4 {
+  top: 95px;
+  left: 490px;
+}
+
+.offers .offers__pink-text {
+  color: #F16D7F;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.offers .offers__item-img-bottom {
+  margin-top: 30px;
+}
+
+.product .product__heading {
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 6px;
+  text-align: center;
+}
+
+.product .product__paragraph {
+  font-size: 14px;
+  color: #9F9F9F;
+  text-align: center;
+}
+
+.product .product__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 48px;
+}
+
+.product .product__item {
+  max-width: 360px;
+  list-style-type: none;
+  background-color: #F8F8F8;
+  margin-bottom: 30px;
+}
+
+.product .fashion-item__heading {
+  font-size: 13px;
+  font-weight: 400;
+  text-transform: uppercase;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-top: 25px;
+  padding-left: 18px;
+  padding-bottom: 12px;
+}
+
+.product .fashion-item__paragraph {
+  font-size: 14px;
+  font-weight: 300;
+  display: inline-block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #5D5D5D;
+  padding-left: 18px;
+  padding-bottom: 18px;
+}
+
+.product .fashion__price-paragrapg {
+  display: inline-block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-left: 18px;
+  padding-bottom: 20px;
+  color: #F16D7F;
+}
+
+.product .product__button {
+  border: 1px solid #F16D7F;
+  background-color: transparent;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 14px 38px;
+  margin-top: 43px;
+  margin-bottom: 95px;
+}
+
+.product .product__button-paragraph {
+  color: #F16D7F;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.product .product__button-adtritio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.possibilities {
+  background-color: #222222;
+}
+
+.possibilities .possibilities__adritio {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.possibilities .possibilities__heading, .possibilities .possibilities__adritio {
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.possibilities .possibilities__heading {
+  margin-top: 28px;
+  margin-bottom: 16px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.possibilities .possibilities__paragraph {
+  font-size: 14px;
+  font-weight: 300;
+  color: #FBFBFB;
+}
+
+.possibilities .possibilities__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.possibilities .possibilities__item {
+  max-width: 360px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 103px;
+  margin-bottom: 104px;
+}
+
+.footer .footer__adtritio {
+  background-image: url("../img/footer__background.png");
+  min-height: 448px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position-y: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.footer .footer__box-avatar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 60px;
+}
+
+.footer .footer__box-paragraph {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 400;
+  max-width: 360px;
+  text-align: center;
+  margin-bottom: 126px;
+  margin-top: 30px;
+}
+
+.footer .footer__span {
+  font-style: italic;
+}
+
+.footer .feedback__paragraph, .footer .feedback__heading {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.footer .feedback__heading {
+  margin-top: 150px;
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.footer .feedback__paragraph {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 32px;
+}
+
+.footer .feedback__email {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-left: 22px;
+  padding-top: 6px;
+  padding-right: 64px;
+  padding-bottom: 7px;
+  border-radius: 20px 0 0 20px;
+  border: none;
+  height: 50px;
+  background-color: #E1E1E1;
+  min-width: 170px;
+}
+
+.footer .feedback__email::-webkit-input-placeholder {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.footer .feedback__email:-ms-input-placeholder {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.footer .feedback__email::-ms-input-placeholder {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.footer .feedback__email::placeholder {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.footer .feedback__button {
+  background-color: transparent;
+  border: none;
+  border-radius: 0 20px 20px 0;
+  background-color: #F16D7F;
+  height: 50px;
+}
+
+.footer .feedback__button-text {
+  font-size: 14px;
+  font-weight: 400;
+  padding: 9px 7px 4px 8px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 36px;
+  color: #FFFFFF;
+}
+
+.footer .basement {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #222222;
+  padding: 30px 230px 30px 235px;
+}
+
+.footer .basement .basement__icon-socnet-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.footer .basement .basement__right-text {
+  display: block;
+  color: #FFFFFF;
+  margin-top: 10px;
+}
+
+.footer .basement .basement__icon-socnet-items {
+  padding-left: 7px;
+}
+/*# sourceMappingURL=style.css.map */
