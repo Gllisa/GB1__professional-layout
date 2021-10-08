@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css-sccs/reset.css">
+    <link rel="stylesheet" href="css-sccs/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="conteiner">
+            <div class="header__cap">
+                <a class="header__ico-index" href="index.html"><img class="header__icon-magazine"
+                        src="img/nav__icon-magazine.svg" alt="icon-magazine" width="44"></a>
+                <img src="img/nav__magnifier.svg" alt="icon-magnifier" width="26">
+            </div>
+            <div class="header__cap">
+                <button class="header__button"><img src="img/nav__big-mac.svg" alt="icon-menu-site" width="32"></button>
+                <a class="header__ico" href="registration.html"><img src="img/nav__logo-man.svg" alt="icon-registration"
+                        width="29"></a>
+                <a class="header__ico" href="#"> <img src="img/nav__bascket.svg" alt="icon-shopping-basket"
+                        width="32"></a>
+                <nav class="header__menu">
+                    <h2 class="header__menu-heading">menu</h2>
+                    <ul class="header__menu-list">
+                        <li class="header__menu-item">
+                            <h3 class="menu-sub-item__heading">man</h3>
+                            <ul class="menu-sub-item__list">
+                                <li class="menu-sub-item__item">Accessories</li>
+                                <li class="menu-sub-item__item">Bags</li>
+                                <li class="menu-sub-item__item">Denim</li>
+                                <li class="menu-sub-item__item">T-Shirt</li>
+                            </ul>
+                        </li>
+                        <li class="header__menu-item">
+                            <h3 class="menu-sub-item__heading">woman</h3>
+                            <ul class="menu-sub-item__list">
+                                <li class="menu-sub-item__item">Accessories</li>
+                                <li class="menu-sub-item__item">Jackets & Coats</li>
+                                <li class="menu-sub-item__item">Polos</li>
+                                <li class="menu-sub-item__item">T-Shirt</li>
+                                <li class="menu-sub-item__item">Shirts</li>
+                            </ul>
+                        </li>
+                        <li class="header__menu-item">
+                            <h3 class="menu-sub-item__heading">kids</h3>
+                            <ul class="menu-sub-item__list">
+                                <li class="menu-sub-item__item">Accessories</li>
+                                <li class="menu-sub-item__item">Jackets & Coats</li>
+                                <li class="menu-sub-item__item">Polos</li>
+                                <li class="menu-sub-item__item">T-Shirt</li>
+                                <li class="menu-sub-item__item">Shirts</li>
+                                <li class="menu-sub-item__item">Bags</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div class="welcome-window-registration">
+        <div class="welcome-window-registration__adtritio">
+            <h2 class="welcome-window-registration__heading">registration</h2>
+        </div>
+    </div>
+    <main>
+        <section class="registration-block">
+            <div class="registration-block__adtritio">
+                <div class="registration-block">
+                    <form action="#">
+                        <fieldset class="registration-block__person-data">
+                            <legend class="registration-block__text">Your Name</legend>
+                            <input class="registration-block__name" type="text" required placeholder="First Name">
+                            <br>
+                            <input class="registration-block__last-name" type="text" required placeholder="Last Name">
+                        </fieldset>
+                        <input class="registration-block__sex-man" type="radio" name="sex" id="sex-man">
+                        <label class="registration-block__radio" for="sex-man">Male</label>
+                        <input class="registration-block__sex-girl" type="radio" name="sex" id="sex-girl">
+                        <label class="registration-block__radio" for="sex-girl">Female</label>
+                        <fieldset>
+                            <legend class="registration-block__text">Login details</legend>
+                            <input class="registration-block__email" type="email" placeholder="Email" required>
+                            <br>
+                            <input class="registration-block__password" type="password" placeholder="Password" required>
+                        </fieldset>
+                        <p class="registration-block__paragraph">Please use 8 or more characters, with at least 1
+                            number
+                            and a mixture of uppercase and
+                            lowercase letters</p>
+                        <br>
+                        <button class="registration-block__button" type="submit">join now</button>
+                    </form>
+                </div>
+                <div class="registration-block__outcome">
+                    <h2 class="registration-block__heading">
+                        loyalty has its perks</h2>
+                    <p class="registration-block__paragraph-outcome">Get in on the loyalty program where you can earn
+                        points and
+                        unlock serious perks. Starting with
+                        these as soon as you join:</p>
+                    <ul class="registration-block__outcome-list">
+                        <li class="registration-block__outcome-item">15% off welcome offer
+                        </li>
+                        <li class="registration-block__outcome-item">Free shipping, returns and exchanges on all orders
+                        </li>
+                        <li class="registration-block__outcome-item">$10 off a purchase on your birthday
+                        </li>
+                        <li class="registration-block__outcome-item">Early access to products</li>
+                        <li class="registration-block__outcome-item">Exclusive offers & rewards</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__adtritio">
+            <div class="footer__box-avatar">
+                <img class="footer__box-avatar" src="img/footer__girl.png" alt="avatar-girl" width="96">
+                <p class="footer__box-paragraph">“Vestibulum quis porttitor dui! Quisque viverra nunc mi,<span
+                        class="footer__span"> a pulvinar
+                        purus
+                        condimentum“</span></p>
+            </div>
+            <div class="feedback">
+                <h2 class="feedback__heading">subscribe</h2>
+                <p class="feedback__paragraph">for our newletter and promotion</p>
+                <form class="feedback__form" action="#">
+                    <input class="feedback__email" type="email" placeholder="Enter Your Email">
+                    <button class="feedback__button" type="button">
+                        <p class="feedback__button-text"> Subscribe</p>
+                    </button>
+                </form>
+            </div>
+        </div>
+        <div class="basement">
+            <p class="basement__right-text">&copy 2021 Brand All Rights Reserved.</p>
+            <ul class="basement__icon-socnet-list">
+                <li class="basement__icon-socnet-items"><a class="basement__abs-link" href="#"><img
+                            class="basement__icon-socnet-img" src="img/footer__icon-facebook.svg" alt="icon-facebook"
+                            height="32"></a>
+                </li>
+                <li class="basement__icon-socnet-items"><a class="basement__abs-link" href="#"><img
+                            class="basement__icon-socnet-img" src="img/footer__icon-instagram.svg" alt="icon-instagram"
+                            height="32"></a>
+                </li>
+                <li class="basement__icon-socnet-items"><a class="basement__abs-link" href="#"><img
+                            class="basement__icon-socnet-img" src="img/footer__icon-pinterest.svg" alt="icon-punterest"
+                            height="32"></a>
+                </li>
+                <li class="basement__icon-socnet-items"><a class="basement__abs-link" href="#"><img
+                            class="basement__icon-socnet-img" src="img/footer__icon-twitter.svg" alt="icon-twitter"
+                            height="32"></a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>
