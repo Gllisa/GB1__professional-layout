@@ -52,7 +52,12 @@ body {
 
 .header .header__button {
   border: none;
+  padding-top: 5px;
   background-color: transparent;
+}
+
+.header .header__button:active {
+  background-color: rgba(158, 158, 158, 0.116);
 }
 
 .header .header {
@@ -517,6 +522,10 @@ body {
   border-radius: 0 20px 20px 0;
   background-color: #F16D7F;
   height: 50px;
+}
+
+.footer .feedback__button:active {
+  opacity: 0.4;
 }
 
 .footer .feedback__form {

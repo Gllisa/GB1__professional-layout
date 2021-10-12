@@ -59,7 +59,12 @@ body {
 
     .header__button {
         border: none;
+        padding-top: 5px;
         background-color: transparent;
+    }
+
+    .header__button:active {
+        background-color: rgba(158, 158, 158, 0.116);
     }
 
     .header {
@@ -438,6 +443,10 @@ body {
         height: 50px;
     }
 
+    .feedback__button:active{
+        opacity: 0.4;
+    }
+
     .feedback__form{
         display: flex;
     }
@@ -450,6 +459,7 @@ body {
         height: 36px;
         color: $color-text-white;
     }
+
     .basement {
         display: flex;
         justify-content: space-between;
