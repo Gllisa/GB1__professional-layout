@@ -111,6 +111,10 @@ body {
   transition: 0.5s;
 }
 
+.welcome-window {
+  margin-bottom: 64px;
+}
+
 .welcome-window .welcome-window__adritrio {
   margin: 0 auto;
   background-color: #F1E4E6;
@@ -118,7 +122,6 @@ body {
   display: -ms-flexbox;
   display: flex;
   text-transform: uppercase;
-  margin-bottom: 64px;
 }
 
 .welcome-window .welcome-window__heading {
@@ -144,6 +147,10 @@ body {
   color: #F16D7F;
 }
 
+.offers {
+  margin-bottom: 97px;
+}
+
 .offers .offers__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -153,11 +160,14 @@ body {
           justify-content: space-between;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin-bottom: 97px;
 }
 
 .offers .offers__list-item {
   position: relative;
+}
+
+.offers .offers__item-show {
+  display: none;
 }
 
 .offers .offers__text {
@@ -311,13 +321,16 @@ body {
   color: #F16D7F;
 }
 
+.product .product__button-adtritio {
+  margin-top: 43px;
+  margin-bottom: 95px;
+}
+
 .product .product__button {
   border: 1px solid #F16D7F;
   background-color: transparent;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  margin-top: 43px;
-  margin-bottom: 95px;
 }
 
 .product .product__button-paragraph:hover {
@@ -574,7 +587,6 @@ body {
   padding-left: 7px;
 }
 
-/*|registration|*/
 .welcome-window-registration {
   padding-top: 59px;
   padding-bottom: 60px;
@@ -700,6 +712,7 @@ body {
   padding-top: 13px;
   padding-bottom: 16px;
   width: 360px;
+  margin-top: 15px;
 }
 
 .registration-block .registration-block__text,
@@ -758,7 +771,6 @@ body {
   transition: 0.5s;
 }
 
-/*|cart|*/
 .welcome-window-cart {
   background-color: #F8F3F4;
 }
@@ -940,4 +952,295 @@ body {
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
-/*# sourceMappingURL=style.css.map */
+
+@media (max-width: 1599px) {
+  .conteiner, .content {
+    margin: 0 auto;
+    width: 736px;
+  }
+  .welcome-window {
+    margin-bottom: 20px;
+  }
+  .welcome-window .welcome-window__img {
+    width: 384px;
+  }
+  .welcome-window .welcome-window__heading {
+    margin-left: 52px;
+    font-size: 44px;
+  }
+  .welcome-window .welcome-window__small-heading,
+  .welcome-window .welcome-window__pink-heading {
+    font-size: 24px;
+  }
+  .offers {
+    margin-bottom: 155px;
+  }
+  .offers .offers__item-img {
+    width: 232px;
+  }
+  .offers .offers__item-img-bottom {
+    width: 735px;
+    height: 116px;
+  }
+  .offers .offers__text-1 {
+    top: 59px;
+    left: 39px;
+  }
+  .offers .offers__text-2 {
+    top: 57px;
+    left: 61px;
+  }
+  .offers .offers__text-3 {
+    top: 58px;
+    left: 59px;
+  }
+  .offers .offers__text-4 {
+    top: 63px;
+    left: 288px;
+  }
+  .product .product__heading {
+    margin-bottom: 3px;
+  }
+  .product .product__list {
+    margin-top: 72px;
+  }
+  .possibilities .possibilities__list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .possibilities .possibilities__item {
+    margin-bottom: 48px;
+  }
+  .possibilities .possibilities__adritio {
+    width: 736px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-top: 48px;
+    padding-bottom: 64px;
+  }
+  .footer .footer__adtritio {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background-size: 3068px 753px;
+    background-position-x: 22%;
+    background-position-y: 22%;
+  }
+  .footer .footer__box-avatar {
+    margin-top: 35px;
+  }
+  .footer .footer__box-paragraph {
+    margin-bottom: 100px;
+  }
+  .footer .feedback__form {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .footer .feedback__heading {
+    margin-top: 0;
+  }
+  .footer .feedback__paragraph {
+    margin-bottom: 29px;
+  }
+  .footer .feedback__form {
+    margin-bottom: 140px;
+  }
+  .footer .basement {
+    padding: 30px 32px;
+  }
+  .welcome-window-registration {
+    margin-bottom: 40px;
+  }
+  .welcome-window-registration .welcome-window-registration__adtritio {
+    width: 736px;
+  }
+  .registration-block .registration-block__adtritio {
+    width: 736px;
+  }
+  .registration-block .registration-block__heading,
+  .registration-block .registration-block__outcome-item,
+  .registration-block .registration-block__paragraph-outcome {
+    font-size: 16px;
+  }
+  .registration-block .registration-block__outcome {
+    margin-left: 22px;
+    margin-top: 12px;
+  }
+  .registration-block .registration-block__heading {
+    margin-bottom: 32px;
+  }
+  .registration-block .registration-block__outcome-item {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .conteiner, .content {
+    margin: 0 auto;
+    width: 375px;
+  }
+  .header .registration-ico,
+  .header .basket-ico {
+    display: none;
+  }
+  .welcome-window {
+    margin-bottom: 64px;
+  }
+  .welcome-window .welcome-window__heading {
+    margin-left: 68px;
+  }
+  .welcome-window .welcome-window__adritrio {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: 363px;
+  }
+  .welcome-window .welcome-window__img {
+    display: none;
+  }
+  .offers .offers__list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .offers .offers__item-img {
+    width: 343px;
+  }
+  .offers .offers__item-img-bottom {
+    width: 343px;
+    height: 111px;
+  }
+  .offers .offers__text-1 {
+    top: 98px;
+    left: 94px;
+  }
+  .offers .offers__text-2 {
+    top: 101px;
+    left: 120px;
+  }
+  .offers .offers__text-3 {
+    top: 105px;
+    left: 120px;
+  }
+  .offers .offers__text-4 {
+    top: 30px;
+    left: 120px;
+  }
+  .offers .offers__item-show {
+    display: block;
+  }
+  .offers .offers__item-img-bottom,
+  .offers .offers__text-4 {
+    display: none;
+  }
+  .offers .offers__list-item {
+    margin-bottom: 32px;
+  }
+  .product {
+    margin-top: 32px;
+  }
+  .product .product__list {
+    margin-top: 64px;
+  }
+  .product .product__paragraph {
+    width: 336px;
+    margin: 0 auto;
+  }
+  .product .product__list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .product .product__item {
+    max-width: 359px;
+    margin-bottom: 16px;
+  }
+  .product .product__button-adtritio {
+    margin-top: 28px;
+  }
+  .possibilities .possibilities__adritio {
+    width: 375px;
+  }
+  .footer .feedback__form {
+    margin-bottom: 109px;
+  }
+  .footer .feedback__paragraph {
+    margin-bottom: 22px;
+  }
+  .footer .basement {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-top: 43px;
+    padding-bottom: 9px;
+  }
+  .footer .basement__icon-socnet-list {
+    margin-bottom: 30px;
+  }
+  .welcome-window-registration {
+    padding: 0;
+  }
+  .welcome-window-registration .welcome-window-registration__adtritio {
+    width: 375px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: 148px;
+  }
+  .registration-block {
+    margin-bottom: 100px;
+  }
+  .registration-block .registration-block__adtritio {
+    width: 375px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .registration-block .registration-block__paragraph {
+    margin: 0;
+  }
+  .registration-block .registration-block__button {
+    margin-bottom: 40px;
+  }
+  .registration-block .registration-block__outcome {
+    margin: 0;
+  }
+}
+/*# sourceMappingURL=index.css.map */

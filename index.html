@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OnlineStores|Main</title>
-    <link rel="stylesheet" href="css-sccs/reset.css">
-    <link rel="stylesheet" href="css-sccs/style.css">
+    <link rel="stylesheet" href="css-scss/reset.css">
+    <link rel="stylesheet" href="css-scss/index.css">
 </head>
 
 <body>
@@ -60,9 +60,9 @@
                     </nav>
                 </div>
 
-                <a class="header__ico" href="registration.html"><img src="img/nav__logo-man.svg" alt="icon-registration"
-                        width="29"></a>
-                <a class=" header__ico" href="#"> <img src="img/nav__bascket.svg" alt="icon-shopping-basket"
+                <a class="header__ico registration-ico" href="registration.html"><img src="img/nav__logo-man.svg"
+                        alt="icon-registration" width="29"></a>
+                <a class=" header__ico basket-ico" href="#"> <img src="img/nav__bascket.svg" alt="icon-shopping-basket"
                         width="32"></a>
             </div>
         </div>
@@ -72,7 +72,7 @@
             <div class="welcome-window__block">
                 <div class="welcome-window__adritrio">
                     <img class="welcome-window__img" src="img/header__man.jpg" alt="photo-man" width="800">
-                    <h1 class="welcome-window__heading">the brand <br><span class="welcome-window__small-heading">of
+                    <h1 class="welcome-window__heading">the brand<br><span class="welcome-window__small-heading">of
                             luxerious</span> <span class="welcome-window__pink-heading">fashion</span>
                     </h1>
                 </div>
@@ -102,8 +102,10 @@
 
                 </li>
                 <li class="offers__list-item">
-                    <a href="#"> <img class="offers__item-img offers__item-img-bottom" src="img/offers__clothes.png"
+                    <a href="#"><img class="offers__item-img offers__item-img-bottom" src="img/offers__clothes.png"
                             alt="photo-clothes" width="1140" height="180">
+                        <img class="offers__item-img offers__item-show" src="img/offers__clothes-ad.png"
+                            alt="photo-clothes">
                         <h3 class="offers__text offers__text-4">luxirous & trendy<br><span
                                 class="offers__pink-text">Accesories</span></h3>
                     </a>
@@ -252,13 +254,12 @@
                 <form class="feedback__form" action="#">
                     <input class="feedback__email" type="email" placeholder="Enter Your Email">
                     <button class="feedback__button" type="button">
-                        <span class="feedback__button-text"> Subscribe</>
+                        <span class="feedback__button-text"> Subscribe</span>
                     </button>
                 </form>
             </div>
         </div>
         <div class="basement">
-            <p class="basement__right-text">&copy 2021 Brand All Rights Reserved.</p>
             <ul class="basement__icon-socnet-list">
                 <li class="basement__icon-socnet-items"><a class="basement__abs-link" href="#"><img
                             class="basement__icon-socnet-img" src="img/footer__icon-facebook.svg" alt="icon-facebook"
@@ -277,6 +278,7 @@
                             height="32"></a>
                 </li>
             </ul>
+            <p class="basement__right-text">&copy 2021 Brand All Rights Reserved.</p>
         </div>
     </footer>
 

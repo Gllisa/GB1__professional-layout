@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OnlineStores|Registration</title>
-    <link rel="stylesheet" href="css-sccs/reset.css">
-    <link rel="stylesheet" href="css-sccs/style.css">
+    <link rel="stylesheet" href="css-scss/reset.css">
+    <link rel="stylesheet" href="css-scss/index.css">
 </head>
 
 <body>
@@ -60,9 +60,9 @@
                     </nav>
                 </div>
 
-                <a class="header__ico" href="registration.html"><img src="img/nav__logo-man.svg" alt="icon-registration"
-                        width="29"></a>
-                <a class=" header__ico" href="#"> <img src="img/nav__bascket.svg" alt="icon-shopping-basket"
+                <a class="header__ico registration-ico" href="registration.html"><img src="img/nav__logo-man.svg"
+                        alt="icon-registration" width="29"></a>
+                <a class=" header__ico basket-ico" href="#"> <img src="img/nav__bascket.svg" alt="icon-shopping-basket"
                         width="32"></a>
             </div>
         </div>
@@ -72,16 +72,20 @@
             <h2 class="welcome-window-registration__heading">registration</h2>
         </div>
     </div>
-    <div>
+    <main>
         <section class="registration-block">
             <div class="registration-block__adtritio">
                 <div class="registration-block">
                     <form action="#">
                         <fieldset class="registration-block__person-data">
                             <legend class="registration-block__text">Your Name</legend>
-                            <input class="registration-block__name" type="text" required placeholder="First Name">
+                            <label for="name">Name</label><br>
+                            <input class="registration-block__name" id="name" type="text" required
+                                placeholder="First Name">
                             <br>
-                            <input class="registration-block__last-name" type="text" required placeholder="Last Name">
+                            <label for="last-name">Last name</label><br>
+                            <input class="registration-block__last-name" id="last-name" type="text" required
+                                placeholder="Last Name">
                         </fieldset>
                         <input class="registration-block__sex-man" type="radio" name="sex" id="sex-man">
                         <label class="registration-block__radio" for="sex-man">Male</label>
@@ -89,9 +93,13 @@
                         <label class="registration-block__radio" for="sex-girl">Female</label>
                         <fieldset>
                             <legend class="registration-block__text">Login details</legend>
-                            <input class="registration-block__email" type="email" placeholder="Email" required>
+                            <label for="email">Email</label><br>
+                            <input class="registration-block__email" id="email" type="email" placeholder="Email"
+                                required>
                             <br>
-                            <input class="registration-block__password" type="password" placeholder="Password" required>
+                            <label for="password">Password</label><br>
+                            <input class="registration-block__password" id="password" type="password"
+                                placeholder="Password" required>
                         </fieldset>
                         <p class="registration-block__paragraph">Please use 8 or more characters, with at least 1
                             number
@@ -121,7 +129,7 @@
                 </div>
             </div>
         </section>
-    </div>
+    </main>
     <footer class="footer">
         <div class="footer__adtritio">
             <div class="footer__box-avatar">
@@ -143,7 +151,6 @@
             </div>
         </div>
         <div class="basement">
-            <p class="basement__right-text">&copy 2021 Brand All Rights Reserved.</p>
             <ul class="basement__icon-socnet-list">
                 <li class="basement__icon-socnet-items"><a class="basement__abs-link" href="#"><img
                             class="basement__icon-socnet-img" src="img/footer__icon-facebook.svg" alt="icon-facebook"
@@ -162,6 +169,7 @@
                             height="32"></a>
                 </li>
             </ul>
+            <p class="basement__right-text">&copy 2021 Brand All Rights Reserved.</p>
         </div>
     </footer>
     <script src="js/script.js"></script>
