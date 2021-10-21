@@ -1,0 +1,121 @@
+.registration-block {
+    .registration-block__adtritio {
+        width: $width-site;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .registration-block__button {
+        margin-bottom: 96px;
+    }
+
+    .registration-block__heading,
+    .registration-block__paragraph {
+        margin-bottom: 22px;
+    }
+
+    .registration-block__outcome {
+        max-width: 625px;
+    }
+
+    .registration-block__heading {
+        text-transform: uppercase;
+    }
+
+    .registration-block__heading,
+    .registration-block__paragraph-outcome,
+    .registration-block__outcome-item {
+        font-size: 24px;
+        font-weight: 300;
+    }
+
+    .registration-block__outcome-item {
+        margin-bottom: 16px;
+    }
+
+    .registration-block__paragraph-outcome {
+        margin-bottom: 31px;
+    }
+
+    .registration-block__paragraph {
+        font-size: 13px;
+        font-weight: 300;
+        color: $color-text-product-paragraph-1;
+        width: 360px;
+    }
+
+    .registration-block__radio {
+        font-size: 11px;
+        font-weight: 300;
+    }
+
+    .registration-block__text::placeholder,
+    .registration-block__name::placeholder,
+    .registration-block__last-name::placeholder,
+    .registration-block__email::placeholder,
+    .registration-block__password::placeholder {
+        font-size: 13px;
+        font-weight: 300;
+        color: $background-footer-input;
+    }
+    .registration-block__text,
+    .registration-block__name,
+    .registration-block__last-name,
+    .registration-block__email,
+    .registration-block__password {
+        box-sizing: border-box;
+        padding-left: 17px;
+        padding-top: 13px;
+        padding-bottom: 16px;
+        width: 360px;
+        margin-top: 15px;
+    }
+
+    .registration-block__text,
+    .registration-block__name,
+    .registration-block__email,
+    .registration-block__password {
+        margin-bottom: 20px;
+    }
+
+    .registration-block__sex-man,
+    .registration-block__sex-girl {
+        margin-bottom: 33px;
+        margin-top: 31px;
+    }
+    .registration-block__outcome-list li{
+        background-image: url(../img/registration-block__check-mark.png);
+        background-size: 20px 16px;
+        background-repeat: no-repeat;
+        padding-left: 40px;
+    }
+
+    .registration-block__button {
+        margin-top: 39px;
+        color: $color-text-fashion;
+        background-color: $color-text-white;
+        box-sizing: border-box;
+        padding: 16px 69px 17px 29px;
+        border: 1px solid $color-text-fashion;
+        font-size: 14px;
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+
+    .registration-block__button:hover {
+        color: $color-text-white;
+        background-color: $color-text-fashion;
+        transition: 0.5s;
+    }
+    .registration-block__button:not(:hover) {
+        transition: 0.5s;
+    }
+    input:hover{
+        background-color:$background-welcome-window-pink;
+        transition: 0.5s;
+    }
+    input:not(:hover){
+        transition: 0.5s;
+    }
+}

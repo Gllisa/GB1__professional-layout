@@ -1,0 +1,104 @@
+.footer {
+  .footer__adtritio {
+    background-image: url("../img/footer__background.png");
+    min-height: 448px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+  .footer__box-avatar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+  }
+  .footer__box-paragraph {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 400;
+    max-width: 360px;
+    text-align: center;
+    margin-bottom: 126px;
+    margin-top: 30px;
+  }
+  .footer__span {
+    font-style: italic;
+  }
+  .feedback__paragraph,
+  .feedback__heading {
+    text-transform: uppercase;
+    text-align: center;
+  }
+  .feedback__heading {
+    margin-top: 150px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 700;
+  }
+  .feedback__paragraph {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 32px;
+  }
+  .feedback__email {
+    box-sizing: border-box;
+    padding-left: 22px;
+    padding-top: 6px;
+    padding-right: 64px;
+    padding-bottom: 7px;
+    border-radius: 20px 0 0 20px;
+    border: none;
+    height: 50px;
+    background-color: $background-footer-input;
+    min-width: 170px;
+  }
+  .feedback__email::placeholder {
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .feedback__button {
+    background-color: transparent;
+    border: none;
+    border-radius: 0 20px 20px 0;
+    background-color: $color-text-fashion;
+    height: 50px;
+  }
+
+  .feedback__button:active {
+    opacity: 0.4;
+  }
+
+  .feedback__form {
+    display: flex;
+  }
+
+  .feedback__button-text {
+    font-size: 14px;
+    font-weight: 400;
+    padding: 9px 7px 4px 8px;
+    box-sizing: border-box;
+    height: 36px;
+    color: $color-text-white;
+  }
+
+  .basement {
+    display: flex;
+    justify-content: space-between;
+    background-color: $background-header-possibilities;
+    padding: 30px 230px 30px 235px;
+    .basement__icon-socnet-list {
+      display: flex;
+      justify-content: flex-end;
+    }
+    .basement__right-text {
+      display: block;
+      color: $color-text-white;
+      margin-top: 10px;
+    }
+    .basement__icon-socnet-items {
+      padding-left: 7px;
+    }
+  }
+}

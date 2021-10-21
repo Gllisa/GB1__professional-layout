@@ -1,0 +1,16 @@
+
+.conteiner, .content {
+    margin: 0 auto;
+    width: $width-site;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.conteiner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 76px;
+}
