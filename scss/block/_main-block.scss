@@ -1,148 +1,148 @@
-
 .main-block {
-    margin-top: 96px;
-    .cart-block__buy-product {
-        display: flex;
-    }
+  margin-top: 96px;
+  .cart-block__buy-product {
+    display: flex;
+  }
 
-    .cart-block__adtritio {
-        display: flex;
-        justify-content: space-between;
-    }
+  .cart-block__adtritio {
+    display: flex;
+    justify-content: space-between;
+  }
 
-    .cart-block__item-product {
-        min-height: 306px;
-        min-width: 652px;
-        margin-bottom: 40px;
-        box-shadow: 25px 27px 21px 0px rgba(34, 60, 80, 0.2);
-    }
+  .cart-block__item-product {
+    min-height: 306px;
+    min-width: 652px;
+    margin-bottom: 40px;
+    box-shadow: 25px 27px 21px 0px rgba(34, 60, 80, 0.2);
+  }
 
-    .cart-block__box {
-        margin-left: 31px;
-    }
+  .cart-block__box {
+    margin-left: 31px;
+  }
 
-    .cart-block__heading {
-        margin-top: 22px;
-        margin-bottom: 42px;
-        font-size: 24px;
-        font-weight: 400;
-        text-transform: uppercase;
-        width: 202px;
-    }
+  .cart-block__heading {
+    margin-top: 22px;
+    margin-bottom: 42px;
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    width: 202px;
+  }
 
-    .cart-block__item-info {
-        font-size: 22px;
-        font-weight: 400;
-        margin-bottom: 6px;
-    }
+  .cart-block__item-info {
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 6px;
+  }
 
-    .price {
-        border: 1px solid black;
-        padding: 0 16px 0 16px;
-        margin-left: 24px;
-    }
+  .price {
+    border: 1px solid black;
+    padding: 0 16px 0 16px;
+    margin-left: 24px;
+  }
 
-    .item-color {
-        color: $color-text-fashion;
-    }
+  .item-color {
+    color: $color-text-fashion;
+  }
 
-    .cart-block__button-function {
-        background-color: transparent;
-        padding: 16px 38px 15px 38px;
-        text-transform: uppercase;
-    }
+  .cart-block__button-function {
+    background-color: transparent;
+    padding: 16px 38px 15px 38px;
+    text-transform: uppercase;
+  }
 
-    .cart-block__button-function:hover,
-    .settlement-block__button:hover {
-        background-color: rgba(119, 119, 119, 0.473);
-        color: $color-text-white;
-        transition: 0.5s;
-    }
+  .cart-block__button-function:hover,
+  .settlement-block__button:hover {
+    background-color: rgba(119, 119, 119, 0.473);
+    color: $color-text-white;
+    transition: 0.5s;
+  }
 
-    .cart-block__button-function:not(:hover),
-    .settlement-block__button:not(:hover) {
-        transition: 0.5s;
-    }
+  .cart-block__button-function:not(:hover),
+  .settlement-block__button:not(:hover) {
+    transition: 0.5s;
+  }
 
-    .cart-block__button-box {
-        display: flex;
-        justify-content: space-between;
-        margin-top: 72px;
-        margin-bottom: 128px;
-    }
+  .cart-block__button-box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 72px;
+    margin-bottom: 128px;
+  }
 
-    .settlement-block__heading {
-        margin-bottom: 20px;
-        text-transform: uppercase;
-    }
+  .settlement-block__heading {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
 
-    .settlement-block__input {
-        margin-bottom: 21px;
-        padding-top: 12px;
-        padding-bottom: 12px;
-        padding-left: 16px;
-        box-sizing: border-box;
-        min-width: 359px;
-    }
+  .settlement-block__input {
+    margin-bottom: 21px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 16px;
+    box-sizing: border-box;
+    min-width: 359px;
+  }
 
-    .settlement-block__button {
-        background-color: transparent;
-        padding: 10px 14px 12px 15px;
-        text-transform: uppercase;
-        margin-bottom: 57px;
-    }
+  .settlement-block__button {
+    background-color: transparent;
+    padding: 10px 14px 12px 15px;
+    text-transform: uppercase;
+    margin-bottom: 57px;
+  }
 
-    .settlement-block__button-transition {
-        background-color: transparent;
-        padding: 15px 43px 16px 41px;
-        text-transform: uppercase;
-        margin-top: 17px;
-        border: none;
-        background-color: $color-text-fashion;
-        color: $background-white;
-        width: 273px;
-    }
+  .settlement-block__button-transition {
+    background-color: transparent;
+    padding: 15px 43px 16px 41px;
+    text-transform: uppercase;
+    margin-top: 17px;
+    border: none;
+    background-color: $color-text-fashion;
+    color: $background-white;
+    width: 273px;
+  }
 
-    .block-transition {
-        background-color: $background-welcome-window-pink;
-        padding: 39px 42px 42px 42px;
-        box-sizing: border-box;
-    }
+  .block-transition {
+    background-color: $background-welcome-window-pink;
+    padding: 39px 42px 42px 42px;
+    box-sizing: border-box;
+  }
 
-    .block-transition__content {
-        display: flex;
-        justify-content: flex-end;
-        margin-top: 12px;
-    }
+  .block-transition__content {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 12px;
+  }
 
-    .block-transition__small-price-paragraph,
-    .block-transition__final-price-heading {
-        margin-left: 20px;
-    }
+  .block-transition__small-price-paragraph,
+  .block-transition__final-price-heading {
+    margin-left: 20px;
+  }
 
-    .block-transition__final-heading,
-    .block-transition__final-price-heading {
-        text-transform: uppercase;
-        font-size: 16px;
-        font-weight: 300;
-    }
+  .block-transition__final-heading,
+  .block-transition__final-price-heading {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 300;
+  }
 
-    .block-transition__final-price-heading {
-        color: $color-text-fashion;
-        font-weight: 700;
-    }
+  .block-transition__final-price-heading {
+    color: $color-text-fashion;
+    font-weight: 700;
+  }
 
-    .block-transition__small-price-paragraph,
-    .block-transition__small-price-paragraph {
-        font-size: 11px;
-        font-weight: 400;
-    }
+  .block-transition__small-price-paragraph,
+  .block-transition__small-price-paragraph {
+    font-size: 11px;
+    font-weight: 400;
+  }
 
-    input:hover{
-        background-color:$background-welcome-window-pink;
-        transition: 0.5s;
-    }
-    input:not(:hover){
-        transition: 0.5s;
-    }
+  input:hover {
+    background-color: $background-welcome-window-pink;
+    transition: 0.5s;
+  }
+
+  input:not(:hover) {
+    transition: 0.5s;
+  }
 }
