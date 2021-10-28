@@ -1,99 +1,83 @@
-$width-site: 1140px;
-$width-site-ad-tablet: 736px;
-$width-site-ad-phone: 375px;
-$background-header-possibilities: #222222;
-$background-welcome-window: #F1E4E6;
-$background-product: #F8F8F8;
-$background-footer-input: #E1E1E1;
-$background-welcome-window-pink:#F8F3F4;
-$background-white:#FFFFFF;
-$color-text-fashion: #F16D7F;
-$color-text-white: #FFFFFF;
-$color-text-product-paragraph-1: #9F9F9F;
-$color-text-product-paragraph-2: #5D5D5D;
-$color-text-possibilitie:#FBFBFB;
-$color-text-input:#B1B1B1;
-
 .header {
-    background-color: $background-header-possibilities;
-    .header__menu {
-        position: absolute;
-        display: none;
-        background-color: $background-white;
-        width: 232px;
-        min-height: 764px;
-        z-index: 1;
-        top: 77px;
-        right: 0;
-    }
+  background-color: $background-header-possibilities;
+  .header__menu {
+    position: absolute;
+    display: none;
+    background-color: $background-white;
+    width: 232px;
+    min-height: 764px;
+    z-index: 1;
+    top: 77px;
+    right: 0;
+  }
 
-    .header__menu_show {
-        display: block;
-    }
+  .header__menu_show {
+    display: block;
+  }
 
-    .header__menu-block:hover .header__menu{
-        display: block;
-    }
-    
-    .header__cap {
-        display: flex;
-    }
+  .header__menu-block:hover .header__menu {
+    display: block;
+  }
 
-    .header__button {
-        border: none;
-        padding-top: 5px;
-        background-color: transparent;
-    }
+  .header__cap {
+    display: flex;
+  }
 
-    .header__button:active {
-        background-color: rgba(158, 158, 158, 0.116);
-    }
+  .header__button {
+    border: none;
+    padding-top: 5px;
+    background-color: transparent;
+  }
 
-    .header {
-        position: relative;
-    }
+  .header__button:active {
+    background-color: rgba(158, 158, 158, 0.116);
+  }
 
-    .header__menu{
-        padding-left: 34px;
-        padding-top: 37px;
-    }
-    .header__menu-heading {
-        font-size: 14px;
-        font-weight: 700;
-        text-transform: uppercase;
-    }
+  .header {
+    position: relative;
+  }
 
-    .header__ico {
-        margin: 0 0 0 33px;
-    }
+  .header__menu {
+    padding-left: 34px;
+    padding-top: 37px;
+  }
+  .header__menu-heading {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
 
-    .header__icon-magazine {
-        margin-right: 41px;
-    }
+  .header__ico {
+    margin: 0 0 0 33px;
+  }
 
-    .menu-sub-item__heading {
-        color: $color-text-fashion;
-        padding-left: 33px;
-        padding-top: 24px;
-        text-transform: uppercase;
-    }
+  .header__icon-magazine {
+    margin-right: 41px;
+  }
 
-    .menu-sub-item__item {
-        padding-left: 55px;
-        padding-top: 6px;
-        padding-bottom: 6px;
-    }
+  .menu-sub-item__heading {
+    color: $color-text-fashion;
+    padding-left: 33px;
+    padding-top: 24px;
+    text-transform: uppercase;
+  }
 
-    .menu-sub-item__item,
-    .menu-sub-item__heading {
-        font-size: 14px;
-        font-weight: 400;
-    }
+  .menu-sub-item__item {
+    padding-left: 55px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+  }
 
-    .menu-sub-item__item:hover{
-        background-color: rgba(255, 0, 0, 0.1);
-    }
-    .menu-sub-item__item:not(:hover){
-        transition: 0.5s;
-    }
+  .menu-sub-item__item,
+  .menu-sub-item__heading {
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  .menu-sub-item__item:hover {
+    background-color: rgba(255, 0, 0, 0.1);
+  }
+  .menu-sub-item__item:not(:hover) {
+    transition: 0.5s;
+  }
 }

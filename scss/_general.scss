@@ -1,16 +1,32 @@
+$width-site: 1140px;
+$width-site-ad-tablet: 736px;
+$width-site-ad-phone: 375px;
+$background-header-possibilities: #222222;
+$background-welcome-window: #f1e4e6;
+$background-product: #f8f8f8;
+$background-footer-input: #e1e1e1;
+$background-welcome-window-pink: #f8f3f4;
+$background-white: #ffffff;
+$color-text-fashion: #f16d7f;
+$color-text-white: #ffffff;
+$color-text-product-paragraph-1: #9f9f9f;
+$color-text-product-paragraph-2: #5d5d5d;
+$color-text-possibilitie: #fbfbfb;
+$color-text-input: #b1b1b1;
 
-.conteiner, .content {
-    margin: 0 auto;
-    width: $width-site;
+.conteiner,
+.content {
+  margin: 0 auto;
+  width: $width-site;
 }
 
 body {
-    font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 .conteiner {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    min-height: 76px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 76px;
 }
